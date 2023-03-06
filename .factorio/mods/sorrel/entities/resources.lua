@@ -1,6 +1,6 @@
 --resources
 
-local datum = {}
+
 
 --alluvial ore (clay, sand, bauxite)
 datum:extend(resource(
@@ -20,4 +20,3 @@ datum:extend(resource(
     })
 )
 
-data:extend(datum)

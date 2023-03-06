@@ -1,6 +1,6 @@
 --machine-items
 
-local datum = {}
+
 
 local kiln = table.deepcopy(data.raw["item"]["stone-furnace"])
 kiln.name = "kiln"
@@ -11,7 +11,7 @@ kiln.icons = {
     },
   }
 kiln.place_result = "kiln"
-datum:extend(kiln)
+datum:extend{kiln}
 
 local brickFurnace = table.deepcopy(data.raw["item"]["stone-furnace"])
 brickFurnace.name = "brick-furnace"
@@ -22,6 +22,6 @@ brickFurnace.icons = {
     },
   }
 brickFurnace.place_result = "brick-furnace"
+datum:extend{brickFurnace}
 
-
-data:extend(datum)
+data:extend{datum}

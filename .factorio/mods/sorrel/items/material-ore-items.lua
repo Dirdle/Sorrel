@@ -1,7 +1,7 @@
 --material-items
 
 --ores
-local datum = {}
+
 
 
 local alluvialOre = table.deepcopy(data.raw["item"]["coal"])
@@ -13,7 +13,7 @@ alluvialOre.icons = {
     },
 }
 
-datum:extend(alluvialOre)
+data:extend{alluvialOre}
 
 
 --processed ores
@@ -21,9 +21,8 @@ local clay = table.deepcopy(data.raw["item"]["stone-brick"])
 clay.name = "clay"
 clay.icon = "../graphics/items/clay.png"
 
-datum:extend(clay)
+data:extend{clay}
 
 
 
 
-data:extend(datum)

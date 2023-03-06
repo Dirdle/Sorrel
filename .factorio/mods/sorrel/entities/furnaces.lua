@@ -1,6 +1,6 @@
 --furnaces
 
-local datum = {}
+
 
 --kiln: tier 0 furnace, uses basic-smelting category
 local kiln = table.deepcopy(data.raw["furnace"]["stone-furnace"])
@@ -13,7 +13,7 @@ kiln.icons = {
   }
 kiln.minable = {mining_time = 0.2, result = "kiln"}
 kiln.crafting_categories = {"basic-smelting"}
-datum:extend(kiln)
+data:extend{kiln}
 
 --clay brick furnace; equiv stone furnace but red
 local brickFurnace = table.deepcopy(data.raw["furnace"]["stone-furnace"])
@@ -26,9 +26,8 @@ brickFurnace.icons = {
   }
 brickFurnace.minable = {mining_time = 0.2, result = "brick-furnace"}
 brickFurnace.crafting_categories = {"smelting"}
-datum:extend(brickFurnace)
+data:extend{brickFurnace}
 
 
 
 
-data:extend(datum)

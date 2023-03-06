@@ -1,6 +1,6 @@
 --Smelted metals and fired bricks
 
-local datum = {}
+
 
 local clayBrick = table.deepcopy(data.raw["items"]["stone-brick"])
 clayBrick.name = "clay-brick"
@@ -12,4 +12,3 @@ clayBrick.icons = {
 }
 
 
-data:extend(datum)
