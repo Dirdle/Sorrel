@@ -2,7 +2,7 @@
 
 
 
-local clayBrick = table.deepcopy(data.raw["items"]["stone-brick"])
+local clayBrick = table.deepcopy(data.raw["item"]["stone-brick"])
 clayBrick.name = "clay-brick"
 clayBrick.icons = {
     {
@@ -11,4 +11,5 @@ clayBrick.icons = {
     },
 }
 
+data:extend{clayBrick}
 

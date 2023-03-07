@@ -1,8 +1,7 @@
 --machine recipes
 
 
-
-local kilnRecipe = table.deepcopy(data.raw["recipes"]["stone-furnace"])
+local kilnRecipe = table.deepcopy(data.raw["recipe"]["stone-furnace"])
 kilnRecipe.enabled = true
 kilnRecipe.category = "crafting"
 kilnRecipe.name = "kiln-recipe"
@@ -10,7 +9,7 @@ kilnRecipe.ingredients = {{"stone",5}}
 kilnRecipe.result = "kiln"
 data:extend{kilnRecipe}
 
-local brickFurnaceRecipe = table.deepcopy(data.raw["recipes"]["stone-furnace"])
+local brickFurnaceRecipe = table.deepcopy(data.raw["recipe"]["stone-furnace"])
 brickFurnaceRecipe.enabled = true
 kilnRecipe.category = "crafting"
 brickFurnaceRecipe.name = "brick-furnace-recipe"

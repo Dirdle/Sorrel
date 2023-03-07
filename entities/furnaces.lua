@@ -1,7 +1,5 @@
 --furnaces
 
-
-
 --kiln: tier 0 furnace, uses basic-smelting category
 local kiln = table.deepcopy(data.raw["furnace"]["stone-furnace"])
 kiln.name = "kiln"
