@@ -95,7 +95,6 @@ end
 local alluvialControl = table.deepcopy(data.raw["autoplace-control"]["coal"])
 alluvialControl.name = "alluvial-ore"
 alluvialControl.localised_name = {"", "[entity=alluvial-ore] ", {"entity-name.alluvial-ore"}}
-
 data:extend{alluvialControl}
 resource_autoplace.initialize_patch_set("alluvial-ore", true)
 
@@ -114,9 +113,6 @@ local alluvial = resource(
       starting_rq_factor_multiplier = 1.5,
       candidate_spot_count = 22,
     })
-
-
-
 
 data:extend{alluvial}
 
