@@ -1,7 +1,6 @@
 --material-items
 
 --ores
-
 local alluvialOre = table.deepcopy(data.raw["item"]["iron-ore"])
 alluvialOre.name = "alluvial-ore"
 alluvialOre.icon = "__sorrel__/graphics/resources/alluvial-ore.png"
@@ -17,6 +16,7 @@ data:extend{alluvialOre}
 local clay = table.deepcopy(data.raw["item"]["stone-brick"])
 clay.name = "clay"
 clay.icon = "__sorrel__/graphics/items/clay.png"
+clay.place_as_tile = nil
 
 data:extend{clay}
 

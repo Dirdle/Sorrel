@@ -6,29 +6,6 @@ local tne = noise.to_noise_expression
 local resource_autoplace = require("resource-autoplace")
 local sounds = require("__base__/prototypes/entity/sounds")
 
--- local function autoplace_settings(name, order, coverage)
---   return
---   {
---     order = order,
---     control = name,
---     sharpness = 15/16,
---     richness_multiplier = 1500,
---     richness_multiplier_distance_bonus = 20,
---     richness_base = 10,
---     coverage = coverage,
---     peaks =
---     {
---       {
---         noise_layer = name,
---         noise_octaves_difference = -0.85,
---         noise_persistence = 0.4
---       }
---     },
---     starting_area_size = 5500 * coverage,
---     starting_area_amount = 1600
---   }
--- end
-
 local function resource(resource_parameters, autoplace_parameters)
   if coverage == nil then coverage = 0.02 end
 

@@ -7,7 +7,7 @@ clayBrick.name = "clay-brick"
 clayBrick.icons = {
     {
     icon = clayBrick.icon,
-    tint = {r=0.7,g=0.1,b=0.0,a=0.3}
+    tint = {r=0.65,g=0.2,b=0.05,a=0.3}
     },
 }
 
