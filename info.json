@@ -1,9 +1,9 @@
 {
     "name" : "sorrel",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "title" : "Sorrel",
     "author" : "Dirdle",
     "factorio_version": "1.1.76",
-    "description": "An overhaul mod, but it hasn't overhauled much yet.",
-    "dependencies": ["base >= 1.1"]   
+    "description": "Adds clay, and steam trains.",
+    "dependencies": ["base >= 1.1", "yi_railway >= 1.1.28"]   
 }

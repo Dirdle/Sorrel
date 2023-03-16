@@ -1,7 +1,7 @@
 --data.lua
 
 --initial setup from code
-require("code.init")
+require("util.init")
 
 --add in items
 require("items.items")
