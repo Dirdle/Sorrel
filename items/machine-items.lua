@@ -1,7 +1,5 @@
 --machine-items
 
-
-
 local kiln = table.deepcopy(data.raw["item"]["stone-furnace"])
 kiln.name = "kiln"
 kiln.icons = {

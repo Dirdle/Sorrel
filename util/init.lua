@@ -1,5 +1,5 @@
 --init
 
 --add crafting recipe categories
-require("recipe-categories")
+require("__sorrel__/recipes/recipe-categories")
 
