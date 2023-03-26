@@ -1,13 +1,17 @@
 --Additional recipe categories
---planned: basic smelting, smelting, advanced smelting; grinding (?), washing; basic chem, chem; distillation; electrolysis
+--planned: forestry, basic smelting, smelting, advanced smelting; grinding (?), washing; basic chem, chem; distillation; electrolysis; forging; assembling,
 
 data:extend(
-{
   {
-    type = "recipe-category",
-    name = "basic-smelting"
-  }
-  
-})
+    {
+      type = "recipe-category",
+      name = "forestry"
+    },
+    {
+      type = "recipe-category",
+      name = "basic-smelting"
+    }
+
+  })
 
 

@@ -4,6 +4,8 @@
     "title" : "Sorrel",
     "author" : "Dirdle",
     "factorio_version": "1.1.76",
-    "description": "Adds clay, and steam trains.",
-    "dependencies": ["base >= 1.1", "yi_railway >= 1.1.28"]   
+    "description": "Adds clay, forestry, railway options...? ",
+    "dependencies": ["base >= 1.1", 
+                    "yi_railway >= 1.1.28"
+                ]   
 }

@@ -8,7 +8,7 @@ local function _replacerec(ing, o, n)
         if g[1] == o then g[1] = n
         elseif g["name"] == o then g["name"] = n
         end
-    end  
+    end
 end
 
 --replace an element "old" in a recipe with an equivalent amount of element "new"
